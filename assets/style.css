@@ -160,6 +160,8 @@ body {
 /* Sidebar item styles */
 .sidebar-item-h1 {
   padding-left: 10px;
+  font-weight: 700;
+  font-size: 1.2em;
 }
 .sidebar-item-h2 {
   padding-left: 25px;
