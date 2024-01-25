@@ -1,0 +1,266 @@
+@import url("colors.css");
+@import url("https://fonts.googleapis.com/css2?family=Hack:wght@400;700&display=swap");
+
+:root {
+    --white: #fff;
+    --black: #333;
+    --dark-black: #000;
+    --sidebar-dark: #1d1d1d;
+    --light-gray: #f2f2f2;
+    --gray: #bbbbbb;
+    --dark-gray: #a1a1a1;
+    --pink: #ff2e88;
+    --red: #f44336;
+    --blue: #2196f3;
+    --orange: #ff9800;
+    --light-blue: #00bcd4;
+    --green: #4caf50;
+    --light-green: #4caf4f2f;
+}
+.light {
+    .page-header {
+        background-color: var(--light-gray);
+        border-bottom: 2px solid var(--light-blue);
+        color: var(--black);
+    }
+
+    .header-button-gei {
+        background-image: var(--light-gray);
+        color: var(--black);
+    }
+    .header-button-gei:hover {
+        background-image: linear-gradient(120deg, #155799, #159957);
+        color: var(--white);
+    }
+
+    .header-button {
+        background-color: var(--light-gray);
+        color: var(--black);
+    }
+    .header-button:hover {
+        background-color: var(--light-blue);
+        color: var(--white);
+    }
+
+    .switch-button {
+        background-color: var(--light-gray);
+        color: var(--black);
+        border-top: 1px solid var(--pink);
+        border-bottom: 3px solid var(--pink);
+        border-left: 1px solid var(--pink);
+        border-right: 3px solid var(--pink);
+    }
+    .switch-button:hover {
+        background-color: var(--pink);
+        color: var(--white);
+    }
+    .sidebar {
+        background-color: var(--light-gray);
+        color: var(--black);
+        border-right: 1px solid var(--dark-gray);
+    }
+
+    .main-content {
+        background-color: var(--white);
+    }
+
+    .main-content p {
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .sidebar a {
+        color: var(--black);
+    }
+
+    .main-content h1::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h2::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h3::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h4::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h5::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h6::before {
+        color: var(--light-blue);
+    }
+
+    .sidebar-item-h1:hover,
+    .sidebar-item-h2:hover,
+    .sidebar-item-h3:hover,
+    .sidebar-item-h4:hover,
+    .sidebar-item-h5:hover,
+    .sidebar-item-h6:hover {
+        color: var(--pink);
+    }
+
+    .main-content code {
+        background-color: var(--gray);
+        color: var(--black);
+    }
+    .main-content pre code {
+        background-color: transparent;
+        color: var(--black);
+    }
+
+    .main-content pre {
+        background-color: var(--light-gray);
+        color: var(--black);
+        border: 1px solid var(--dark-gray);
+    }
+
+    .main-content hr {
+        border: 1px dashed var(--light-blue);
+    }
+    .main-content a {
+        color: var(--pink);
+    }
+    .main-content a:hover {
+        background-color: var(--pink);
+        color: var(--white);
+    }
+
+    .main-content blockquote {
+        border-left: 3px solid var(--pink);
+        background-color: var(--light-gray);
+    }
+
+    .main-content li::marker {
+        color: var(--pink);
+    }
+}
+
+.dark {
+    
+    .page-header {
+        background-color: var(--dark-black);
+        border-bottom: 2px solid var(--light-blue);
+        color: var(--white);
+    }
+
+    .header-button-gei {
+        background-image: var(--dark-black);
+        color: var(--white);
+    }
+    .header-button-gei:hover {
+        background-image: linear-gradient(120deg, #155799, #159957);
+        color: var(--white);
+    }
+
+    .header-button {
+        background-color: var(--dark-black);
+        color: var(--white);
+    }
+    .header-button:hover {
+        background-color: var(--light-blue);
+        color: var(--black);
+    }
+    .switch-button {
+        background-color: var(--dark-black);
+        color: var(--white);
+        border-top: 1px solid var(--pink);
+        border-bottom: 3px solid var(--pink);
+        border-left: 1px solid var(--pink);
+        border-right: 3px solid var(--pink);
+    }
+    .switch-button:hover {
+        background-color: var(--pink);
+        color: var(--dark-black);
+    }
+    .sidebar {
+        background-color: var(--dark-black);
+        color: var(--white);
+        border-right: 1px solid var(--dark-gray);
+    }
+
+    .main-content {
+        background-color: var(--dark-black);
+        color: var(--gray);
+    }
+
+    .main-content p {
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .sidebar a {
+        color: var(--gray);
+    }
+
+    .main-content h1::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h2::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h3::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h4::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h5::before {
+        color: var(--light-blue);
+    }
+
+    .main-content h6::before {
+        color: var(--light-blue);
+    }
+
+    .sidebar-item-h1:hover,
+    .sidebar-item-h2:hover,
+    .sidebar-item-h3:hover,
+    .sidebar-item-h4:hover,
+    .sidebar-item-h5:hover,
+    .sidebar-item-h6:hover {
+        color: var(--pink);
+    }
+
+    .main-content code {
+        background-color: var(--gray);
+        color: var(--dark-black);
+    }
+    .main-content pre code {
+        background-color: transparent;
+        color: var(--white);
+    }
+
+    .main-content pre {
+        background-color: var(--dark-black);
+        color: var(--white);
+        border: 1px solid var(--dark-gray);
+    }
+
+    .main-content hr {
+        border: 1px dashed var(--light-blue);
+    }
+    .main-content a {
+        color: var(--pink);
+    }
+    .main-content a:hover {
+        background-color: var(--pink);
+        color: var(--white);
+    }
+
+    .main-content blockquote {
+        border-left: 2px solid var(--green);
+    }
+
+    .main-content li::marker {
+        color: var(--pink);
+    }
+}
